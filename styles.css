@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #9de60a; /* Set text color to white */
+}
+
+.header {
+    color: #adb08a;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 90px;
+    padding: 20px;
+    margin: 0;
+}
+
+.main-content {
+    font-size: 90px;
+    padding: 50px;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 20px;
+    color: #89eb09;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #efecec;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    padding: 10px;
+
+    color: #ed6708; /* Set quote text color to white */
+}
+
+    /* Rest of your existing styles */
+
+    .github-link {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #1b1717f0; /* GitHub's primary color */
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .github-link:hover {
+        background-color: #0ec1ca; /* Darken the color on hover */
+    }
+
